@@ -1,0 +1,68 @@
+*{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.contato__titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #7b3786;
+}
+
+form{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+form .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px 0 20px 0;
+    
+}
+
+form label, form legend{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    margin: 0 0 20px;
+    padding: 5px 25px;
+    width: 50%;
+}
+
+.meio__contato{
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    margin: 20px 0;
+    
+}
+
+.separar__botao{
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar{
+    padding-bottom: 5px;
+    max-width: 10%;
+    background-color: #7b3786;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #996899;
+    transform: scale(1.2);
+}
