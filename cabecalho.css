@@ -1,0 +1,80 @@
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #996899;
+    background-size: cover;
+    height: 12vh;
+
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+.aka__nome{
+    max-width: 200px;
+}
+
+
+/*.cabecalho__principal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo__aka{
+    max-width: 11vh;
+}
+
+.aka__nome{
+    max-width: 200px;
+}
+
+.cabecalho__principal-nav{
+    display: flex;
+
+}
+
+.cabecalho__principal-nav-link{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.container{
+    background-image: url(../img/grade-banner.png);
+    background-size: cover;
+    
+    
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7s;
+}

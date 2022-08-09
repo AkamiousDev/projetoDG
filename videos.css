@@ -1,0 +1,37 @@
+.perolas__titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color: #7b3786
+}
+
+.sub__perolas{
+    font-size: 1.445em;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.videos{
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+iframe.espaçador__video{
+    margin-bottom: 20px;
+}
+
+/*.espaçador__video:nth-child(4n+1){
+    margin-left: 0;
+}

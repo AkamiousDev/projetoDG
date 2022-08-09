@@ -1,0 +1,27 @@
+.redes__titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #7b3786;
+}
+
+.redes__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.redes__imagens{
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.redes__imagens:hover{
+    
+    transform: scale(1.1);
+}

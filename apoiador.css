@@ -1,0 +1,48 @@
+*{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.titulo__apoiador{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #7b3786;
+}
+
+.apoiador{
+    background: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub__centralizado{
+    font-size: 1.445em;
+    margin-bottom: 20px;
+}
+
+.conteudo__beneficios{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.imagem__beneficios{
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.imagem__beneficios:hover{
+    transform: scale(1.1);
+}
